@@ -52,7 +52,7 @@ public class Base_Test {
 		spark = new ExtentSparkReporter(FrameworkConstants.extentReportsPath + javaUtility.dateAndTime() + ".html");
 		reports = new ExtentReports();
 		reports.attachReporter(spark);
-	}
+	} 
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
